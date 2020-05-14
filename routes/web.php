@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/molengeek', 'remediationController@index');
+Route::get('/molengeek', 'remediationController@index')->name('theremediation');
