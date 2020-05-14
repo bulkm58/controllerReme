@@ -10,4 +10,14 @@ class remediationController extends Controller
         $ninho='ninho-destin';
 	return  view('molengeek',compact('ninho'));
 }
+ public function edit(){
+
+    return view('edit');
+
+ }
+ public function show(){
+
+    return view('show');
+
+ }
 }

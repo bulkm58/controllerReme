@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/molengeek', 'remediationController@index')->name('theremediation');
+
+Route::get('/edit', 'remediationController@edit');
+Route::get('/show', 'remediationController@show');
